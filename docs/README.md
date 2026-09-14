@@ -2,9 +2,8 @@
 
 ## 1. Integrantes del Equipo
 
-- Nombre Completo 1 (Documento / Correo)
-- Nombre Completo 2 (Documento / Correo)
-- Nombre Completo 3 (Documento / Correo)
+- Daniel Josue Acosta Galindo (10185664213/ acostadaniel345@gmail.com)
+- Sebastian Hernandez Mendoza (1256897453/ sebastianmn8@gmail.com)
 
 ## 2. Descripción del Negocio y Justificación
 
@@ -69,12 +68,12 @@ Esta entidad permite representar la relación N:M entre Venta y Producto.
 
 ## 4. Matriz de Entornos y Conexiones
 
-| Motor | Proveedor/Entorno | Uso |
-|---|---|---|
-| SQLite | Archivo local | Desarrollo y pruebas |
-| MySQL | AiViven.io | Base de datos remota |
-| PostgreSQL | Neon.tech | Base de datos remota |
-| PostgreSQL | Render.com | Base de datos remota |
+| Motor      | Proveedor/Entorno | Uso                  |
+| ---------- | ----------------- | -------------------- |
+| SQLite     | Archivo local     | Desarrollo y pruebas |
+| MySQL      | AiViven.io        | Base de datos remota |
+| PostgreSQL | Neon.tech         | Base de datos remota |
+| PostgreSQL | Render.com        | Base de datos remota |
 
 ## 5. Instrucciones de Ejecución
 
@@ -82,3 +81,4 @@ Esta entidad permite representar la relación N:M entre Venta y Producto.
 
 ```bash
 pip install peewee psycopg2-binary pymysql
+```
