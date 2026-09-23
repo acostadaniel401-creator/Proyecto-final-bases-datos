@@ -1,6 +1,3 @@
-CREATE SCHEMA IF NOT EXISTS tienda;
-SET search_path TO tienda;
-
 DROP TABLE IF EXISTS detalle_venta;
 DROP TABLE IF EXISTS venta;
 DROP TABLE IF EXISTS producto;
